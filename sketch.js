@@ -63,7 +63,7 @@ function randomOne() {
 
 function updateLink () {
   
-  const link = `https://weightan.github.io/RoseNoiseCurveJS?xp=${k1}&yp=${k2}&yp=${squiggliness}`
+  const link = `https://weightan.github.io/RoseNoiseCurveJS?xp=${k1}&yp=${k2}&sp=${squiggliness}`
   
   select("#permalink").html(link).attribute("href", link)
 }
